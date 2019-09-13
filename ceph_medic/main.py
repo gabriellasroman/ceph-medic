@@ -150,3 +150,5 @@ Global Options:
         # Verbosity
         verbosity = parser.get('--verbosity', 'debug')
         ceph_medic.config.verbosity = verbosity.lowercase()
+        
+        # testing spaces vs tabs for indentation
